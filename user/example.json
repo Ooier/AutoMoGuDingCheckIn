@@ -1,24 +1,22 @@
 {
   "config": {
     "user": {
-      "phone": "工学云手机号",
-      "password": "工学云密码"
+      "phone": "17746687318",
+      "password": "Askl@7318"
     },
     "clockIn": {
       "mode": "daily",
       "location": {
-        "address": "四川省 · 成都市 · 高新区 · 在科创十一街附近",
-        "latitude": "30.559922",
-        "longitude": "104.093023",
-        "province": "四川省",
-        "city": "成都市",
-        "area": "高新区"
+        "address": "江西省 · 九江市 · 濂溪区 · 长江大道与长虹西路交汇处",
+        "latitude": "29.687893",
+        "longitude": "115.9752",
+        "province": "江西省",
+        "city": "九江市",
+        "area": "濂溪区"
       },
       "imageCount": 0,
       "description": [
-        "今天天气不错",
-        "今天天气很好",
-        "今天天气不太好"
+        "1"
       ],
       "specialClockIn": false,
       "customDays": [
@@ -61,7 +59,7 @@
       },
       {
         "type": "AnPush",
-        "enabled": true,
+        "enabled": false,
         "token": "your_token",
         "channel": "通道ID,多个用英文逗号隔开",
         "to": "根据官方文档获取"
@@ -73,7 +71,7 @@
       },
       {
         "type": "SMTP",
-        "enabled": true,
+        "enabled": false,
         "host": "smtp服务地址",
         "port": 465,
         "username": "发件人邮箱",
